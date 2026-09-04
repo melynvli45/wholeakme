@@ -1,0 +1,1 @@
+chrome.storage.local.get('lastScan',({lastScan})=>{const r=document.getElementById('risk'),u=document.getElementById('url');if(!lastScan){r.textContent='No data';return;}r.textContent=lastScan.level+' Risk · '+lastScan.score+'/100';u.textContent=lastScan.url+' — '+lastScan.message;});
