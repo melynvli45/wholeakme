@@ -43,7 +43,7 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #0b1422;
+  color: #bccfea;
   font-size: 20px;
   font-weight: 800;
   padding: 6px 8px 30px;
@@ -585,8 +585,12 @@ textarea {
 .auth-card h2 {
   margin-top: 0;
 }
-.auth-card form {
+
+.auth-card input {
+  margin-top: 6px;
+  margin-bottom: 16px;
 }
+
 .auth-card label {
   margin: 15px 0;
 }

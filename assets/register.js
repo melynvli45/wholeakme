@@ -131,7 +131,7 @@ registerForm.addEventListener("submit", async (event) => {
     // REDIRECT TO LOGIN PAGE
     // =============================
 
-    window.location.href = "index.php";
+    window.location.href = "login.php";
   } catch (error) {
     console.error("❌ Registration error:", error);
 

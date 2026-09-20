@@ -43,6 +43,24 @@ onAuthStateChanged(auth, async (user) => {
   await loadNotifications(user.uid);
 });
 
+// ===============================
+// HEADER USER NAME + AVATAR
+// ===============================
+
+const userName = user.displayName || user.email?.split("@")[0] || "User";
+
+const headerUserName = document.getElementById("headerUserName");
+
+const headerAvatar = document.getElementById("headerAvatar");
+
+if (headerUserName) {
+  headerUserName.textContent = userName;
+}
+
+if (headerAvatar) {
+  headerAvatar.textContent = userName.charAt(0).toUpperCase();
+}
+
 // ==========================================
 // LOAD NOTIFICATIONS
 // ==========================================

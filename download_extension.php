@@ -387,6 +387,11 @@ include __DIR__ . '/includes/header.php';
 
 </section>
 
+<script
+    type="module"
+    src="./assets/download_extension.js">
+</script>
+
 
 <?php
 

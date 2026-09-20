@@ -15,7 +15,7 @@ include __DIR__ . '/includes/header.php';
         <a href="#home">Home</a>
         <a href="#objective">Objective</a>
         <a href="#features">Features</a>
-        <a href="#members">About</a>
+        <a href="#members">Team</a>
         <a href="login.php" class="nav-login">Login</a>
     </div>
 
@@ -327,7 +327,7 @@ include __DIR__ . '/includes/header.php';
         <!-- MEMBER 1 -->
         <div class="member-card">
 
-            <img src="assets/memberimg/mel.jpeg" alt="Member 1">
+            <img src="assets/memberimg/5.png" alt="Member 1">
 
             <h3>MAHIDIR BIN AYUB</h3>
 
@@ -339,7 +339,7 @@ include __DIR__ . '/includes/header.php';
         <!-- MEMBER 2 -->
         <div class="member-card">
 
-            <img src="assets/memberimg/mel.jpeg" alt="Member 2">
+            <img src="assets/memberimg/1.png" alt="Member 2">
 
             <h3>MUHAIMIN BIN MAHADI</h3>
 
@@ -351,7 +351,7 @@ include __DIR__ . '/includes/header.php';
         <!-- MEMBER 3 -->
         <div class="member-card">
 
-            <img src="assets/memberimg/mel.jpeg" alt="Member 3">
+            <img src="assets/memberimg/3.png" alt="Member 3">
 
             <h3>RAJA SYARAFUDDIN BIN RAJA SAHARULNIZAM</h3>
 
@@ -363,7 +363,7 @@ include __DIR__ . '/includes/header.php';
         <!-- MEMBER 4 -->
         <div class="member-card">
 
-            <img src="assets/memberimg/mel.jpeg" alt="Member 4">
+            <img src="assets/memberimg/4.png" alt="Member 4">
 
             <h3>MUHAMMAD SYAFIQ IMRAN BIN MUSA </h3>
 
@@ -374,7 +374,7 @@ include __DIR__ . '/includes/header.php';
 
         <!-- MEMBER 5 -->
         <div class="member-card">
-            <img src="assets/memberimg/mel.jpeg" alt="Member 5">
+            <img src="assets/memberimg/2.png" alt="Member 5">
             <h3>MELISSA BINTI MOHD SHAFIQ</h3>
             <p>FRONT-END DEVELOPER</p>
         </div>
